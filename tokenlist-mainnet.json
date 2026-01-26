@@ -4,7 +4,7 @@
   "keywords": [
     "monad mainnet"
   ],
-  "timestamp": "2026-01-26T15:19:03.906450+00:00",
+  "timestamp": "2026-01-26T15:19:53.344850+00:00",
   "tokens": [
     {
       "chainId": 143,
@@ -379,6 +379,32 @@
     },
     {
       "chainId": 143,
+      "address": "0x1c8eE940B654bFCeD403f2A44C1603d5be0F50Fa",
+      "name": "Midas mEDGE",
+      "symbol": "mEDGE",
+      "decimals": 18,
+      "extensions": {
+        "coinGeckoId": "midas-medge"
+      },
+      "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/mEDGE/logo.svg"
+    },
+    {
+      "chainId": 143,
+      "address": "0xd90F6bFEd23fFDE40106FC4498DD2e9EDB95E4e7",
+      "name": "Midas Hyperithm",
+      "symbol": "mHYPER",
+      "decimals": 18,
+      "extensions": {
+        "coinGeckoId": "midas-mhyper",
+        "bridgeInfo": {
+          "protocol": "LayerZero OFT",
+          "bridgeAddress": "0x08BC5Ef2E2Afe697614bf3A9eaA71dcBb577f2Df"
+        }
+      },
+      "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/mHYPER/logo.svg"
+    },
+    {
+      "chainId": 143,
       "address": "0x1D4795A4670033f47f572b910553be0295077b51",
       "name": "mcMON",
       "symbol": "mcMON",
@@ -594,7 +620,7 @@
   ],
   "version": {
     "major": 2,
-    "minor": 25,
+    "minor": 26,
     "patch": 0
   }
 }
