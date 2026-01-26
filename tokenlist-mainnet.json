@@ -4,7 +4,7 @@
   "keywords": [
     "monad mainnet"
   ],
-  "timestamp": "2026-01-19T16:25:13.057452+00:00",
+  "timestamp": "2026-01-26T15:19:03.906450+00:00",
   "tokens": [
     {
       "chainId": 143,
@@ -473,6 +473,36 @@
     },
     {
       "chainId": 143,
+      "address": "0x484be0540aD49f351eaa04eeB35dF0f937D4E73f",
+      "name": "Staked Yuzu USD",
+      "symbol": "syzUSD",
+      "decimals": 18,
+      "extensions": {
+        "coinGeckoId": "staked-yuzu-usd",
+        "bridgeInfo": {
+          "protocol": "LayerZero OFT",
+          "bridgeAddress": "0x484be0540aD49f351eaa04eeB35dF0f937D4E73f"
+        }
+      },
+      "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/syzUSD/logo.svg"
+    },
+    {
+      "chainId": 143,
+      "address": "0xfDD22Ce6D1F66bc0Ec89b20BF16CcB6670F55A5a",
+      "name": "thBILL",
+      "symbol": "thBILL",
+      "decimals": 6,
+      "extensions": {
+        "coinGeckoId": "theo-short-duration-us-treasury-fund",
+        "bridgeInfo": {
+          "protocol": "LayerZero OFT",
+          "bridgeAddress": "0xfDD22Ce6D1F66bc0Ec89b20BF16CcB6670F55A5a"
+        }
+      },
+      "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/thBILL/logo.svg"
+    },
+    {
+      "chainId": 143,
       "address": "0xA3D68b74bF0528fdD07263c60d6488749044914b",
       "name": "Wrapped eETH",
       "symbol": "weETH",
@@ -530,11 +560,41 @@
         }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/xSolvBTC/logo.svg"
+    },
+    {
+      "chainId": 143,
+      "address": "0xb37476cB1F6111cC682b107B747b8652f90B0984",
+      "name": "Yuzu Protection Pool",
+      "symbol": "yzPP",
+      "decimals": 18,
+      "extensions": {
+        "coinGeckoId": "yuzu-protection-pool",
+        "bridgeInfo": {
+          "protocol": "LayerZero OFT",
+          "bridgeAddress": "0xb37476cB1F6111cC682b107B747b8652f90B0984"
+        }
+      },
+      "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/yzPP/logo.svg"
+    },
+    {
+      "chainId": 143,
+      "address": "0x9dcB0D17eDDE04D27F387c89fECb78654C373858",
+      "name": "Yuzu USD",
+      "symbol": "yzUSD",
+      "decimals": 18,
+      "extensions": {
+        "coinGeckoId": "yuzu-usd",
+        "bridgeInfo": {
+          "protocol": "LayerZero OFT",
+          "bridgeAddress": "0x9dcB0D17eDDE04D27F387c89fECb78654C373858"
+        }
+      },
+      "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/yzUSD/logo.svg"
     }
   ],
   "version": {
     "major": 2,
-    "minor": 24,
+    "minor": 25,
     "patch": 0
   }
 }
