@@ -4,7 +4,7 @@
   "keywords": [
     "monad mainnet"
   ],
-  "timestamp": "2026-02-05T17:10:57.910467+00:00",
+  "timestamp": "2026-02-06T16:54:45.286129+00:00",
   "tokens": [
     {
       "chainId": 143,
@@ -338,6 +338,20 @@
         }
       },
       "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/SolvBTC/logo.svg"
+    },
+    {
+      "chainId": 143,
+      "address": "0x1808D4aA4D4a7cf66bb6515BF126edEfA2b018c1",
+      "name": "USD Star",
+      "symbol": "USD*",
+      "decimals": 6,
+      "extensions": {
+        "bridgeInfo": {
+          "protocol": "Wormhole NTT",
+          "bridgeAddress": "0xc3F3dDa544815a440633176c7598f5B97500793e"
+        }
+      },
+      "logoURI": "https://raw.githubusercontent.com/monad-crypto/token-list/refs/heads/main/mainnet/USD*/logo.svg"
     },
     {
       "chainId": 143,
@@ -1022,7 +1036,7 @@
   ],
   "version": {
     "major": 2,
-    "minor": 26,
-    "patch": 1
+    "minor": 27,
+    "patch": 0
   }
 }
