@@ -4,7 +4,7 @@
   "keywords": [
     "monad mainnet"
   ],
-  "timestamp": "2026-02-06T16:54:45.286129+00:00",
+  "timestamp": "2026-03-02T10:42:37.008982+00:00",
   "tokens": [
     {
       "chainId": 143,
@@ -574,6 +574,7 @@
       "symbol": "aprMON",
       "decimals": 18,
       "extensions": {
+        "coinGeckoId": "apriori-monad-lst",
         "bridgeInfo": {
           "protocol": "Chainlink CCIP",
           "bridgeAddress": "0x33566fE5976AAa420F3d5C64996641Fc3858CaDB"
@@ -1037,6 +1038,6 @@
   "version": {
     "major": 2,
     "minor": 27,
-    "patch": 0
+    "patch": 1
   }
 }
